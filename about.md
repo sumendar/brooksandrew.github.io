@@ -1,30 +1,38 @@
 ---
 layout: page
 permalink: /about/
-title: About the Theme
-tagline: Minimal Mistakes, a Jekyll Theme
-tags: [about, Jekyll, theme, responsive]
+title: About me
+tagline: 
+tags: [about]
 modified: 9-9-2013
 comments: true
 image:
-  feature: texture-feature-02.jpg
-  credit: Texture Lovers
-  creditlink: http://texturelovers.com
+  feature: nz_sheep.jpg
+  credit: Andrew Brooks
 ---
 
-Jekyll is pretty rad and figured releasing a cleaned up version of [my site](http://mademistakes.com)[^1] as a theme for others to hack and build on would be fun. So here be that theme --- I call it **Minimal Mistakes**, a responsive Jekyll theme with large featured images and solid typography. 
+I'm a Data Scientist at a small data mining consulting company in DC called [Elder Research](http://datamininglab.com/).  I turn data into numbers, numbers into words, 
+words into stories and stories into action for my clients.
+<br>
+<br>
+I started my professional career on the Economics PhD track at the Federal Reserve Board.  I took some abstract math classes to prepare, but then I started 
+taking some cool applied statistics courses at Georgetown U.  I started getting good (and interested) in programming and less interested in abstract
+academic research.  I decided to leave the Fed to finish my Mathematics & Statistics Master's program at Georgetown U and work as a Data Scientist at Elder Research, a 
+small consulting firm specializing in data mining and predictive analytics.  I love starting projects from scratch: working with clients to identify their problems, strategizing 
+analytic approaches, creating models using machine learning methods and operationalizing these models to truly drive behavior and improve decision making.
 
-## Minimal Mistakes is all about:
+### My career path has gone something like this:
 
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 8+ and all modern browsers. 
-* Minimal embellishments --- content first.
-* Large feature images for posts and pages.
-* Author sidebar to pimp your bio, photo[^2], and social media links.
-* Simple and clear permalink structure *(ie: domain.com/category/post-title)*
+>I started undergrad doing international relations thinking big picture with ambitions to be a diplomat of sorts.  
+Then I got hooked on economics.  
+Then I realized economics is really math.  
+Then I realized I was better at computer languages than abstract mathematical languages and foreign languages.  
+Then I realized I actually liked computer languages; that I could actually be more creative and powerful with data and code.    
+Then I got a job where I get to learn as much about data science and machine learning as possible.  
+Then I realized building models for people is harder than just building models for people.  
+Then I started turning numbers into words, words into stories and stories into action.  
+Then I started building this website.
 
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install Minimal Mistakes Theme</a>
 
-[^1]: Since open sourcing this theme I have released a couple other Jekyll themes. My website [Made Mistakes](http://mademistakes.com) is currently using a modified version of my [So Simple Theme](http://mmistakes.github.io/so-simple-theme/).
 
-[^2]: Fancy avatars provided by [Brandon Mathis](http://brandonmathis.com/projects/fancy-avatars/demo/) under a [Creative Commons Attribution 3.0 License](http://creativecommons.org/licenses/by/3.0/).
+
