@@ -1,0 +1,33 @@
+---
+layout: post
+title:  "Nextbus - how accurate is it?"
+date:   2014-07-19
+categories: jekyll
+tags: [data science, wmata, data viz]
+---
+
+[Nextbus](http://www.wmata.com/rider_tools/nextbus/arrivals.cfm) is great.
+It tells me how many minutes I have before I have to start running to catch the bus.
+Nextbus estimates use GPS which is definitely smarter than the static bus schedule table, but how accurate is it really?
+I've noticed accuracy is sometimes spot-on, while at other times, I've found myself waiting for 10 minutes at the bus stop
+when Nextbus continually tells me I have just 1 minute to wait.
+<br>
+<br>
+So I sought out to answer some of these questions:
+
+*  How accurate is nextbus?
+*  Are bus predictions more less accurate in rush-hour traffic?
+*  Is there a bias in the prediction (consistently predicting longer times)?
+*  Do predictions get more accurate as the bus gets closer?
+  
+  
+Will include:
+
+*   How to tap the [WMATA](http://www.wmata.com/) api.
+*   How to extract relevant predictions from the api every 10 seconds and aggregate to a time-series dataset.
+*   How I answered the questions above.
+*   The answers to the questions above.
+*   Some cool visualizations.
+
+
+<a href="https://www.flickr.com/photos/123438060@N05/13899179960" title="IMG_0251 by Andrew Brooks, on Flickr"><img src="https://farm6.staticflickr.com/5521/13899179960_aa86a8dd4d_c.jpg" width="800" height="600" alt="IMG_0251"></a>
