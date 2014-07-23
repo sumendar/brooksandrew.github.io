@@ -17,20 +17,23 @@ So I sought out to answer some of these questions:
 
 *  How accurate is nextbus?
 *  Are bus predictions less accurate in rush-hour traffic?
-*  Is there a bias in the prediction (consistently predicting longer times)?
+*  Is there a bias in the prediction (consistently predicting longer wait times)?
 *  Do predictions get more accurate as the bus gets closer?
   
   
 Will include:
 
 *   How to tap the [WMATA](http://www.wmata.com/) api.
-*   How to extract relevant predictions from the api every 10 seconds and aggregate to a time-series dataset.
-*   How I answered the questions above.
-*   The answers to the questions above.
+*   How to extract relevant predictions from the api every 10 seconds and transform to a time-series dataset.
+*   Answers to questions above.
+*   How to answer questions above.
 *   Some cool visualizations.
 
-<a href="https://farm6.staticflickr.com/5521/13899179960_ae06893c7e_h.jpg" class="image-popup" title="IMG_0251 by Andrew Brooks, on Flickr"><img src="https://farm6.staticflickr.com/5521/13899179960_ae06893c7e_h.jpg" width="1600" height="1200" alt="IMG_0251"></a>
+A work in progress which can be checked up on [here](https://github.com/brooksandrew/nextbus).
 
+<figure>
+	<a href="https://farm6.staticflickr.com/5521/13899179960_ae06893c7e_h.jpg" class="image-popup" title="IMG_0251 by Andrew Brooks, on Flickr"><img src="https://farm6.staticflickr.com/5521/13899179960_ae06893c7e_h.jpg" width="1600" height="1200" alt="IMG_0251"></a>
+</figure>
 
 
 
