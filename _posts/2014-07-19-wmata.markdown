@@ -29,7 +29,7 @@ Will include:
 *   The answers to the questions above.
 *   Some cool visualizations.
 
-<a href="https://farm6.staticflickr.com/5521/13899179960_ae06893c7e_h.jpg" title="IMG_0251 by Andrew Brooks, on Flickr"><img src="https://farm6.staticflickr.com/5521/13899179960_ae06893c7e_h.jpg" width="1600" height="1200" alt="IMG_0251"></a>
+<a href="https://farm6.staticflickr.com/5521/13899179960_ae06893c7e_h.jpg" class="image-popup" title="IMG_0251 by Andrew Brooks, on Flickr"><img src="https://farm6.staticflickr.com/5521/13899179960_ae06893c7e_h.jpg" width="1600" height="1200" alt="IMG_0251"></a>
 
 
 
