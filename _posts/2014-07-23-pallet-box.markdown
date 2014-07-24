@@ -62,12 +62,13 @@ For my project I only really needed the boards, so I didn't worry about banging 
 	<a href="https://farm3.staticflickr.com/2919/14749518523_3494d77604_h.jpg" title="jigsaw on narrow deckboards"><img src="https://farm3.staticflickr.com/2919/14749518523_8e6948a59d.jpg" width="500" height="375" alt="IMG_2349"></a>
 	<figcaption>Using a jigsaw to cut the boards out saves a lot of nail removal work.</figcaption>
 </figure>
-<br>
+
 <figure class = "third">
 	<a href="https://farm4.staticflickr.com/3854/14543209237_24b011fef2_h.jpg" title="Hammer on pallet 1"><img src="https://farm4.staticflickr.com/3854/14543209237_892a22366a.jpg" width="375" height="500" alt="IMG_2358"></a>
 	<a href="https://farm4.staticflickr.com/3894/14729371102_ec1af659fc_h.jpg" title="Hammer on pallet 2"><img src="https://farm4.staticflickr.com/3894/14729371102_6b96458528.jpg" width="375" height="500" alt="IMG_2360"></a>
 	<a href="https://farm3.staticflickr.com/2936/14543015438_a544c30ead_k.jpg" title="bucketful of nails"><img src="https://farm3.staticflickr.com/2936/14543015438_f7cfee586e.jpg" width="375" height="500" alt="IMG_2361"></a>
-	<figcaption>Lots of nails...and this isn't even all of them.</figcaption>
+	<figcaption>Lots of nails. 
+	And this isn't even all of them.</figcaption>
 </figure>
 <br>
 <figure>
