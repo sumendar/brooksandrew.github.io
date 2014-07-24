@@ -3,7 +3,7 @@ layout: post
 title:  "Data Science Projects - coming soon"
 date:   2014-07-19
 tags: [diy, data science, photography]
-categories: jekyll
+categories: projects
 ---
 
 

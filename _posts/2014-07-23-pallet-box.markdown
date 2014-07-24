@@ -2,8 +2,8 @@
 layout: post
 title:  "DIY pallet box"
 date:   2014-07-23
-tags: [diy, pallet]
-categories: jekyll
+tags: [diy, pallet, projects]
+categories: projects
 image:
   feature: https://farm6.staticflickr.com/5553/14543586177_9fea89db6a_k.jpg
   credit: Andrew Brooks
@@ -67,8 +67,8 @@ For my project I only really needed the boards, so I didn't worry about banging 
 	<a href="https://farm4.staticflickr.com/3854/14543209237_24b011fef2_h.jpg" title="Hammer on pallet 1"><img src="https://farm4.staticflickr.com/3854/14543209237_892a22366a.jpg" width="375" height="500" alt="IMG_2358"></a>
 	<a href="https://farm4.staticflickr.com/3894/14729371102_ec1af659fc_h.jpg" title="Hammer on pallet 2"><img src="https://farm4.staticflickr.com/3894/14729371102_6b96458528.jpg" width="375" height="500" alt="IMG_2360"></a>
 	<a href="https://farm3.staticflickr.com/2936/14543015438_a544c30ead_k.jpg" title="bucketful of nails"><img src="https://farm3.staticflickr.com/2936/14543015438_f7cfee586e.jpg" width="375" height="500" alt="IMG_2361"></a>
-	<figcaption>Lots of nails...and this isn't even all of them.</figcaption>
 </figure>
+<figcaption>Lots of nails...and this isn't even all of them.</figcaption>
 <br>
 <figure>
 	<a href="https://farm6.staticflickr.com/5552/14727292934_88199eeb03_h.jpg" title="crobar on block"><img src="https://farm6.staticflickr.com/5552/14727292934_c2e5dcb53e.jpg" width="500" height="375" alt="IMG_2353"></a>
@@ -121,7 +121,7 @@ Depending on how rugged your pallets are, you might want finer (higher grade) or
 
 <figure>
 	<a href="https://farm4.staticflickr.com/3872/14543840360_80b79523d2_h.jpg" title="byproduct shelf"><img src="https://farm4.staticflickr.com/3872/14543840360_b054edd758.jpg" width="500" height="353" alt="IMG_2369_zoom"></a>
-	</figcaption>Wall shelf: a random by-product from the leftovers</figcaption>
+	<figcaption>Wall shelf: a random by-product from the leftovers</figcaption>
 </figure>
 
 
