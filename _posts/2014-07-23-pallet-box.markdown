@@ -91,7 +91,7 @@ For my project I only really needed the boards, so I didn't worry about banging 
 <br>
 <figure	>
 	<a href="https://farm3.staticflickr.com/2918/14729651915_f3db30b5f5_h.jpg" title="creating the panels"><img src="https://farm3.staticflickr.com/2918/14729651915_dde99a0eb6.jpg" width="500" height="375" alt="IMG_2380"></a>
-	<figcaption>Create the 4 panels (walls of the box).  </figcaption>
+	<figcaption>Create the 4 panels (walls of the box).  I used a couple clamps to keep everything in place.</figcaption>
 </figure>
 
 Use a powersander to sand down the edges and surfaces of each panel.  I used grade 100 sandpaper.
@@ -101,7 +101,7 @@ Depending on how rugged your pallets are, you might want finer (higher grade) or
 ## Step 3: Putting it all together
 
 <figure class = "half">
-	<a href="https://farm6.staticflickr.com/5573/14727281304_c8552b51d3_h.jpg" title="nailig panels together"><img src="https://farm6.staticflickr.com/5573/14727281304_9ec5a263ba.jpg" width="375" height="500" alt="IMG_2383"></a>
+	<a href="https://farm6.staticflickr.com/5573/14727281304_c8552b51d3_h.jpg" title="nailing panels together"><img src="https://farm6.staticflickr.com/5573/14727281304_9ec5a263ba.jpg" width="375" height="500" alt="IMG_2383"></a>
 	<a href="https://farm4.staticflickr.com/3838/14726466231_164f817bdb_h.jpg" title="bottom of box"><img src="https://farm4.staticflickr.com/3838/14726466231_6e65f5df89.jpg" width="375" height="500" alt="IMG_2387"></a>
 	<figcaption>Nail the 4 panels together using 1.5 inch nails (or longer).  The box also needs a bottom.  My box will be my clothes hamper, so I figured leaving some space 
 	between the bottom boards might not be a bad idea to get some air in there.</figcaption>
