@@ -4,6 +4,12 @@ title:  "Nextbus - how accurate is it?"
 date:   2014-07-19
 categories: projects
 tags: [data science, wmata, data viz]
+
+image:
+  feature: https://farm4.staticflickr.com/3917/14715980326_cc9a8f931a_h.jpg
+  credit: Andrew Brooks
+  creditlink: https://www.flickr.com/photos/123438060@N05/14715980326
+comments: true
 ---
 
 [Nextbus](http://www.wmata.com/rider_tools/nextbus/arrivals.cfm) is great.
