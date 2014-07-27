@@ -21,7 +21,7 @@ when Nextbus continually tells me I have just 1 minute to wait.
 <br>
 So I sought out to answer some of these questions:
 
-*  How accurate is nextbus?
+*  How accurate is Nextbus?
 *  Are bus predictions less accurate in rush-hour traffic?
 *  Is there a bias in the prediction (consistently predicting longer wait times)?
 *  Do predictions get more accurate as the bus gets closer?
