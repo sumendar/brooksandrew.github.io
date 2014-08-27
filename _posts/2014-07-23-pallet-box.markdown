@@ -5,9 +5,9 @@ date:   2014-07-23
 tags: [diy, pallet, projects]
 categories: projects
 image:
-  feature: https://farm6.staticflickr.com/5553/14543586177_9fea89db6a_k.jpg
+  feature: https://farm4.staticflickr.com/3842/14862280098_465261ae37_h.jpg
   credit: Andrew Brooks
-  creditlink: https://www.flickr.com/photos/123438060@N05/14543586177
+  creditlink: https://www.flickr.com/photos/123438060@N05/14862280098
 comments: true
 ---
 
