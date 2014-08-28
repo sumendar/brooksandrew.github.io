@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Nextbus - how accurate is it?"
-date:   2014-07-19
+date:   2014-08-27
 categories: projects
 tags: [data science, wmata, data viz]
 
@@ -15,38 +15,32 @@ comments: true
 [Nextbus](http://www.wmata.com/rider_tools/nextbus/arrivals.cfm) is great.
 It tells me how many minutes I have before I have to start running to catch the bus.
 Nextbus estimates use GPS which is definitely smarter than the static bus schedule table, but how accurate is it really?
-I've noticed accuracy is sometimes spot-on, while at other times, I've found myself waiting for 10 minutes at the bus stop
-when Nextbus continually tells me I have just 1 minute to wait.
+I feel like I've found myself waiting for what seems like 10 minutes at the bus stop
+when Nextbus continually tells me I have just a few minutes left to wait.
 <br>
 <br>
-So I sought out to answer some of these questions:
 
-*  How accurate is Nextbus?
-*  Are bus predictions less accurate in rush-hour traffic?
-*  Is there a bias in the prediction (consistently predicting longer wait times)?
-*  Do predictions get more accurate as the bus gets closer?
-  
-  
-Will include:
 
-*   How to tap the [WMATA](http://www.wmata.com/) api.
-*   How to extract relevant predictions from the api every 10 seconds and transform to a time-series dataset.
-*   Answers to questions above.
-*   How to answer questions above.
-*   Some cool visualizations.
+<h4>What does 5 minutes really mean?</h4>
+When Nextbus predicts 5 minutes, 90% of the time you can expect to wait between 4.5 and 7.2 minutes.
+Not perfect, but not terrible.
 
-A work in progress which can be checked up on [here](https://github.com/brooksandrew/nextbus).
+<h4>How often is the bus late?</h4>
+Roughly 80% of the time. Play with the app below :)
+
+<iframe style="border: 0px;" src="/simpleblog/assets/html/d3nextbus.html" width="1000" height="700"></iframe>
+
+See how I figured this out [here](https://github.com/brooksandrew/nextbus).
+
+
+
+
+
+
 
 <figure>
 	<a href="https://farm6.staticflickr.com/5521/13899179960_ae06893c7e_h.jpg" class="image-popup" title="IMG_0251 by Andrew Brooks, on Flickr"><img src="https://farm6.staticflickr.com/5521/13899179960_ae06893c7e_h.jpg" width="1600" height="1200" alt="IMG_0251"></a>
 </figure>
-
-<script>alert(window.location.pathname)</script>
-<iframe style="border: 0px;" src="/simpleblog/assets/html/d3nextbus.html" width="1000" height="700"></iframe>
-
-
-
-
 
 
 
