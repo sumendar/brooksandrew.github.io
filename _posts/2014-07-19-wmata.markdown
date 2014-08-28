@@ -41,7 +41,8 @@ A work in progress which can be checked up on [here](https://github.com/brooksan
 	<a href="https://farm6.staticflickr.com/5521/13899179960_ae06893c7e_h.jpg" class="image-popup" title="IMG_0251 by Andrew Brooks, on Flickr"><img src="https://farm6.staticflickr.com/5521/13899179960_ae06893c7e_h.jpg" width="1600" height="1200" alt="IMG_0251"></a>
 </figure>
 
-<iframe style="border: 0px;" src="simpleblog/assets/html/d3nextbus.html" width="1000" height="700"></iframe>
+<script>alert(window.location.pathname)</script>
+<iframe style="border: 0px;" src="/simpleblog/assets/html/d3nextbus.html" width="1000" height="700"></iframe>
 
 
 
