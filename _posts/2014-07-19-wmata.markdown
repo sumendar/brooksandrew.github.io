@@ -34,7 +34,7 @@ Roughly 80% of the time. Play with the app below :)
 <br>
 
 This project on:
-<div markdown="0"><a href="https://github.com/brooksandrew/nextbus" class="btn">github</a></div>
+<a href="https://github.com/brooksandrew/nextbus" class="btn">github  </a>
 <a href="http://brooksandrew.github.io/simpleblog/articles/nextbus/" class="btn">my blog post</a>
 
 <!-- See how I figured this out: [here](https://github.com/brooksandrew/nextbus). -->
