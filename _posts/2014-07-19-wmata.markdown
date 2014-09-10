@@ -25,7 +25,7 @@ Not perfect, but not terrible.
 #### How often is the bus late?
 Roughly 80% of the time. Play with the app below :)
 
-<iframe style="border: 0px;" src="/simpleblog/assets/html/d3nextbus.html" width="1000" height="700"></iframe>
+<iframe style="border: 0px;" src="/simpleblog/assets/html/d3nextbus.html" width="1000" height="550"></iframe>
 
 #### One week of Nextbus predictions:
 
