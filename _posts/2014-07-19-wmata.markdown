@@ -23,20 +23,21 @@ When Nextbus predicts 5 minutes, 80% of the time you can expect to wait between 
 Not perfect, but not terrible.
 
 #### How often is the bus late?
-Roughly 80% of the time.  Play with the app below to see the range of actual wait times you can expect for any Nextbus prediction.
+Roughly 80% of the time.  Use with the app below to see the range of actual wait times you can expect for any Nextbus prediction.
 
 <iframe style="border: 0px;" src="/simpleblog/assets/html/d3nextbus.html" width="1000" height="600"></iframe>
 
-Early days are defined such that there is a 10% chance the bus will arrive before the predicted wait time.  
-Late days are defined such that there is a 10% chance the bus will arrive after the predicted wait time.  
-
+<span style="font-size:0.8em">
+Early days are defined such that there is a 10% chance the bus will arrive before the early day wait time.  
+Late days are defined such that there is a 10% chance the bus will arrive after the late day wait time.  
+</span>
 
 
 #### One week of Nextbus predictions:
 
 Each circle is a prediction in the app below.  <span style="color:red">Red circles</span> indicate predictions that turn out to be late.
 <span style="color:green">Green circles</span> indicate predictions that turn out to be early.  If predictions are consistently accurate, you will see a straight diagonal line.
-The bowing out or hockey stick shape shows that predictions are often initially optimistic, but later revised upward (delayed).  It appears that Nextbus often reassesses its forecast when predicting arrivals in 8-12 minutes.
+The bowing out or hockey stick shape shows that predictions are often initially optimistic, but later revised upward (delayed).  It appears that Nextbus often reassesses its forecasts when it startes predicting arrivals in 8-12 minutes.
 
 <iframe style="border: 0px;" src="/simpleblog/assets/html/busScatter.html" width="1000" height="550"></iframe>
 
