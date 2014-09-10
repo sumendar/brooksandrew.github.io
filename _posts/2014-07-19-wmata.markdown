@@ -28,11 +28,13 @@ Roughly 80% of the time. Play with the app below :)
 <iframe style="border: 0px;" src="/simpleblog/assets/html/d3nextbus.html" width="1000" height="700"></iframe>
 
 #### One week of Nextbus predictions:
-<iframe style="border: 0px;" src="/simpleblog/assets/html/busScatter.html" width="1000" height="550"></iframe>
 
-Each circle is a prediction.  <span style="color:red">Red circles</span> indicate predictions that turn out to be late.
+Each circle is a prediction in the app below.  <span style="color:red">Red circles</span> indicate predictions that turn out to be late.
 <span style="color:green">Green circles</span> indicate predictions that turn out to be early.  If predictions are consistently accurate, you will see a straight diagonal line.
 The bowing out or hockey stick shape shows that predictions are often initially optimistic, but later revised upward (delayed).  It appears that Nextbus often reassesses its forecast when predicting arrivals in 8-12 minutes.
+
+<iframe style="border: 0px;" src="/simpleblog/assets/html/busScatter.html" width="1000" height="550"></iframe>
+
 
 
 <br>
