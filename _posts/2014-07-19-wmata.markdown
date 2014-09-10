@@ -17,18 +17,19 @@ It tells me how many minutes I have before I have to start running to catch the 
 Nextbus estimates use GPS which is definitely smarter than the static bus schedule table, but how accurate is it really?
 I feel like I've found myself waiting for what seems like 10 minutes at the bus stop
 when Nextbus continually tells me I have just a few minutes left to wait.
-<br>
-<br>
 
-
-<h4>What does 5 minutes really mean?</h4>
+#### What does 5 minutes really mean?
 When Nextbus predicts 5 minutes, 90% of the time you can expect to wait between 4.5 and 7.2 minutes.
 Not perfect, but not terrible.
 
-<h4>How often is the bus late?</h4>
+#### How often is the bus late?
 Roughly 80% of the time. Play with the app below :)
 
 <iframe style="border: 0px;" src="/simpleblog/assets/html/d3nextbus.html" width="1000" height="700"></iframe>
+
+#### One week of Nextbus predictions
+<iframe style="border: 0px;" src="/simpleblog/assets/html/busScatter.html" width="1000" height="550"></iframe>
+
 
 See how I figured this out [here](https://github.com/brooksandrew/nextbus).
 
@@ -38,9 +39,9 @@ See how I figured this out [here](https://github.com/brooksandrew/nextbus).
 
 
 
-<figure>
+<!-- <figure>
 	<a href="https://farm6.staticflickr.com/5521/13899179960_ae06893c7e_h.jpg" class="image-popup" title="IMG_0251 by Andrew Brooks, on Flickr"><img src="https://farm6.staticflickr.com/5521/13899179960_ae06893c7e_h.jpg" width="1600" height="1200" alt="IMG_0251"></a>
-</figure>
+</figure> -->
 
 
 
