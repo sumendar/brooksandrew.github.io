@@ -19,13 +19,18 @@ I feel like I've found myself waiting for what seems like 10 minutes at the bus 
 when Nextbus continually tells me I have just a few minutes left to wait.
 
 #### What does 5 minutes really mean?
-When Nextbus predicts 5 minutes, 90% of the time you can expect to wait between 4.5 and 7.2 minutes.
+When Nextbus predicts 5 minutes, 80% of the time you can expect to wait between 4.5 and 7.2 minutes.
 Not perfect, but not terrible.
 
 #### How often is the bus late?
-Roughly 80% of the time. Play with the app below :)
+Roughly 80% of the time.  Play with the app below to see the range of actual wait times you can expect for any Nextbus prediction.
 
 <iframe style="border: 0px;" src="/simpleblog/assets/html/d3nextbus.html" width="1000" height="600"></iframe>
+
+Early days are defined such that there is a 10% chance the bus will arrive before the predicted wait time.  
+Late days are defined such that there is a 10% chance the bus will arrive after the predicted wait time.  
+
+
 
 #### One week of Nextbus predictions:
 
