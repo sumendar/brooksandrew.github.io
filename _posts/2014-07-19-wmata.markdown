@@ -14,26 +14,48 @@ comments: true
 
 [Nextbus](http://www.wmata.com/rider_tools/nextbus/arrivals.cfm) is great.
 It tells me how many minutes I have before I have to start running to catch the bus.
-Nextbus estimates use GPS which is definitely smarter than the static bus schedule table, but how accurate is it really?
+Nextbus estimates use GPS which is definitely smarter than the static bus schedule, but how accurate is it really?
 I feel like I've found myself waiting for what seems like 10 minutes at the bus stop
-when Nextbus continually tells me I have just a few minutes left to wait.
+when Nextbus continually tells me I have just a few minutes left to wait.  
+<br>
+I pulled predictions from the [WMATA (Washington Metropolitan Area Transit Authority)](http://developer.wmata.com/) API every 10 seconds for about a week.
+I selfishly collected data for just my bus (the southbound [64](http://www.wmata.com/bus/timetables/dc/60-64.pdf)) for my stop in Petworth (5th & Taylor St NW).
 
-#### What does 5 minutes really mean?
+<br>
+
+### What does 5 minutes really mean?
 When Nextbus predicts 5 minutes, 80% of the time you can expect to wait between 4.5 and 7.2 minutes.
 Not perfect, but not terrible.
 
-#### How often is the bus late?
-Roughly 80% of the time.  Use with the app below to see the range of actual wait times you can expect for any Nextbus prediction.
+### How often is the bus late?
+81% of the time.  Interact with the graphic below to see the range of actual wait times you can expect for any Nextbus prediction.
 
-<iframe style="border: 0px;" src="/simpleblog/assets/html/d3nextbus.html" width="1000" height="600"></iframe>
+<iframe style="border: 0px;" src="/simpleblog/assets/html/d3nextbus.html" width="1000" height="650"></iframe>
 
 <span style="font-size:0.8em">
 Early days are defined such that there is a 10% chance the bus will arrive before the early day wait time.  
 Late days are defined such that there is a 10% chance the bus will arrive after the late day wait time.  
 </span>
 
+<!-- #### How late is late? -->
 
-#### One week of Nextbus predictions:
+### When to trust Next Bus?
+
+For predictions of 5 minutes or less, the prediction errors are relatively small -- less than 1 minute in either direction.  Not very surprising.
+However, Next Bus predictions quickly become less reliable after 5 minutes.  In fact predictions are least reliable for predictions of 11,12,13 minutes.
+This is interesting. It appears Next Bus predictions are more accurate when the bus is 60 minutes away than when the bus is just 12 minutes away.
+After the weird spike around predictions of 11,12,13 minutes the average prediction error flattens out around 2:15-2:30 minutes.
+
+<img src="/simpleblog/assets/png/ggmapebar.png" alt="average prediction error by minute">
+
+### Are prediction errors caused by late or early buses?
+
+Short answer: late buses.  
+
+When Next Bus predicts 12 minutes, 90% of the time 10:56 minutes, 19:22
+<img src="/simpleblog/assets/png/ggconf.png" alt="average prediction error by hour">
+
+### One week of Nextbus predictions:
 
 Each circle is a prediction in the app below.  <span style="color:red">Red circles</span> indicate predictions that turn out to be late.
 <span style="color:green">Green circles</span> indicate predictions that turn out to be early.  If predictions are consistently accurate, you will see a straight diagonal line.
@@ -43,6 +65,47 @@ The bowing out or hockey stick shape shows that predictions are often initially 
 
 
 
+<img src="/simpleblog/assets/png/gghourmedian.png" alt="average prediction error by hour">
+
+
+<br>
+
+### What does Next Bus say?
+
+>In general though, the margin of error is less than one minute for predictions of five minutes away or less. For ten-minute predictions, the margin of error is less than two minutes. Predictions are biased slightly early to avoid people missing buses.
+
+
+### What does the data say?
+
+The data generally corroborates [Next Bus's claims](http://www.wmata.com/rider_tools/nextbus/faq.cfm#493)... 
+
+>In general though, the margin of error is less than one minute for predictions of five minutes away or less.
+
+**True 71% of the time.**
+
+>For ten-minute predictions, the margin of error is less than two minutes
+
+ **True 79% of the time.**
+
+ >Predictions are biased slightly early to avoid people missing buses 
+
+ **True: 81% of predictions are late.**
+
+
+
+
+
+
+### Under the hood
+
+Posts on the making of this project can be found here:
+
+* [pulling from the WMATA API]("/simpleblog/nextbus1_api.html")
+* [data grunt work]()
+* [analysis and pictures]()
+* [fancy pictures]()
+
+<br>
 <br>
 
 This project on:
