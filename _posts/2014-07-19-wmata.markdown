@@ -110,7 +110,7 @@ Posts on the making of this project can be found here:
 
 This project on:
 <a href="https://github.com/brooksandrew/nextbus" class="btn">github  </a>
-<a href="http://brooksandrew.github.io/simpleblog/nextbus/" class="btn">blog</a>
+<a href="http://brooksandrew.github.io/simpleblog/articles/nextbus/" class="btn">blog</a>
 
 <!-- See how I figured this out: [here](https://github.com/brooksandrew/nextbus). -->
 
