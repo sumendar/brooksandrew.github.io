@@ -28,45 +28,64 @@ When Nextbus predicts 5 minutes, 80% of the time you can expect to wait between 
 Not perfect, but not terrible.
 
 ### How often is the bus late?
-81% of the time.  Interact with the graphic below to see the range of actual wait times you can expect for any Nextbus prediction.
+81% of the time.  Interact with the app below to see the range of actual wait times you can expect for any Nextbus prediction.
 
 <iframe style="border: 0px;" src="/simpleblog/assets/html/d3nextbus.html" width="1000" height="650"></iframe>
 
 <span style="font-size:0.8em">
 Early days are defined such that there is a 10% chance the bus will arrive before the early day wait time.  
-Late days are defined such that there is a 10% chance the bus will arrive after the late day wait time.  
+Late days are defined such that there is a 10% chance the bus will arrive after the late day time.  
 </span>
 
 <!-- #### How late is late? -->
 
-### When to trust Next Bus?
+### Which predictions to trust?
 
-For predictions of 5 minutes or less, the prediction errors are relatively small -- less than 1 minute in either direction.  Not very surprising.
-However, Next Bus predictions quickly become less reliable after 5 minutes.  In fact predictions are least reliable for predictions of 11,12,13 minutes.
-This is interesting. It appears Next Bus predictions are more accurate when the bus is 60 minutes away than when the bus is just 12 minutes away.
-After the weird spike around predictions of 11,12,13 minutes the average prediction error flattens out around 2:15-2:30 minutes.
+For predictions of 5 minutes or less, prediction errors are relatively small -- less than 1 minute in either direction.  Not very surprising.
+However, Next Bus predictions quickly become less reliable after 5 minutes.  
+<br>
+Strangely, predictions are least reliable for predictions of 11,12,13 minutes.
+This is interesting. It appears Next Bus predictions are more accurate when the bus is 60 minutes away than when the bus is just 12 minutes away.  
+<br>
+After the weird spike of 3 minute errors around predictions of 11,12,13 minutes, the average absolute prediction error flattens out to around 2:15-2:30 minutes.
 
 <img src="/simpleblog/assets/png/ggmapebar.png" alt="average prediction error by minute">
 
 ### Are prediction errors caused by late or early buses?
 
 Short answer: late buses.  
+<br>
+There is sizable conservative bias (predicting longer wait times than needed). This bias is the mass of red waves above the dotted line (the 81% of buses that arrive late).
+For predictions of 15 minutes or more, there is just a 5% chance the bus will arrive at least 1:30 minutes early, while there is a 52% chance the bus will arrive at least 1:30 minutes late.  
 
-When Next Bus predicts 12 minutes, 90% of the time 10:56 minutes, 19:22
-<img src="/simpleblog/assets/png/ggconf.png" alt="average prediction error by hour">
+### How late is late?
+
+* 70% of the time buses are no more than 4 minutes late (and no more than 30 seconds early) for predictions of 15 minutes or more.  
+* 70% of the time buses are no more than 1:52 minutes late (and no more than 19 seconds early) for predictions of 5 minutes.  
+
+However, these margins of error widen quite a bit when we want to be 90% sure when the bus will arrive(the dark red area).  These are the nasty outliers.  
+
+* 90% of the time buses are no more than 7 minutes late (and no more than 1:30 minutes early) for predictions of 15 minutes or more.  
+* 90% of the time buses are no more than 2:43 minutes late (and no more than 53 seconds early) for predictions of 5 minutes.  
+
+
+<img src="/simpleblog/assets/png/ggconf.png" alt="confidence intervals for prediction errors">
+
+### Does rush hour traffic affect Next Bus?
+
+It appears it does.  Predictions are off the mark (late) most in the morning between 8am and 10am.
+ 
+<img src="/simpleblog/assets/png/gghourmedian.png" alt="average prediction error by hour">
+
 
 ### One week of Nextbus predictions:
 
 Each circle is a prediction in the app below.  <span style="color:red">Red circles</span> indicate predictions that turn out to be late.
-<span style="color:green">Green circles</span> indicate predictions that turn out to be early.  If predictions are consistently accurate, you will see a straight diagonal line.
-The bowing out or hockey stick shape shows that predictions are often initially optimistic, but later revised upward (delayed).  It appears that Nextbus often reassesses its forecasts when it startes predicting arrivals in 8-12 minutes.
+<span style="color:green">Green circles</span> indicate predictions that turn out to be early.  If predictions are consistently accurate, you will see a straight diagonal line.   
+<br>
+Predictions often follow a consistent trend (straight diagonal line) until some point where predictions prematurely jump to 11, 12, or 13 minutes, when in reality, there is much longer to wait.  There are also some gradual bends in the graphic around 10-15 minutes which indicate that predictions are often initially optimistic, but later revised upward (delayed).  
 
 <iframe style="border: 0px;" src="/simpleblog/assets/html/busScatter.html" width="1000" height="550"></iframe>
-
-
-
-<img src="/simpleblog/assets/png/gghourmedian.png" alt="average prediction error by hour">
-
 
 <br>
 
@@ -91,19 +110,21 @@ The data generally corroborates [Next Bus's claims](http://www.wmata.com/rider_t
 
  **True: 81% of predictions are late.**
 
+<br>
 
+### Assumptions
 
-
-
+1. When Next Bus says a bus is arriving multiple times, I take the latest prediction before the bus disappears off your Next Bus app as the arrival time.
+2. Remove bus trips that never arrive. There are some ghost buses out there. It’s impossible to determine the error in a prediction if you don’t know the outcome (true arrival time), so these trips are removed. 
 
 ### Under the hood
 
 Posts on the making of this project can be found here:
 
-* [pulling from the WMATA API]("/simpleblog/nextbus1_api.html")
-* [data grunt work]()
-* [analysis and pictures]()
-* [fancy pictures]()
+* [pulling from the WMATA API]("/simpleblog/nextbus1_api")
+* [data grunt work]("/simpleblog/nextbus2_wrangle")
+* [analysis and pictures]("/simpleblog/nextbus3_analyze")
+* [fancy pictures]("/simpleblog/nextbus4")
 
 <br>
 <br>
@@ -113,11 +134,6 @@ This project on:
 <a href="http://brooksandrew.github.io/simpleblog/articles/nextbus/" class="btn">blog</a>
 
 <!-- See how I figured this out: [here](https://github.com/brooksandrew/nextbus). -->
-
-
-
-
-
 
 
 <!-- <figure>
