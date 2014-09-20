@@ -68,15 +68,13 @@ However, these margins of error widen quite a bit when we want to be 90% sure wh
 * 90% of the time buses are no more than 7 minutes late (and no more than 1:30 minutes early) for predictions of 15 minutes or more.  
 * 90% of the time buses are no more than 2:43 minutes late (and no more than 53 seconds early) for predictions of 5 minutes.  
 
-
 <img src="/simpleblog/assets/png/ggconf.png" alt="confidence intervals for prediction errors">
 
 ### Does rush hour traffic affect Next Bus?
 
-It appears it does.  Predictions are off the mark (late) most in the morning between 8am and 10am.
+It appears it does.  Predictions are off the mark (late) most in the morning between 8am and 10am.  
  
 <img src="/simpleblog/assets/png/gghourmedian.png" alt="average prediction error by hour">
-
 
 ### One week of Nextbus predictions:
 
@@ -121,10 +119,10 @@ The data generally corroborates [Next Bus's claims](http://www.wmata.com/rider_t
 
 Posts on the making of this project can be found here:
 
-* [pulling from the WMATA API]("/simpleblog/nextbus1_api")
-* [data grunt work]("/simpleblog/nextbus2_wrangle")
-* [analysis and pictures]("/simpleblog/nextbus3_analyze")
-* [fancy pictures]("/simpleblog/nextbus4")
+* [pulling from the WMATA API](/simpleblog/articles/nextbus1_api)
+* [data grunt work](/simpleblog/articles/nextbus2_wrangle)
+* [analysis and pictures](/simpleblog/articles/nextbus3_analyze)
+* [fancy pictures](/simpleblog/articles/nextbus4_viz)
 
 <br>
 <br>
