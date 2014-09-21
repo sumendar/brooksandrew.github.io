@@ -58,6 +58,8 @@ Short answer: late buses.
 There is sizable conservative bias (predicting longer wait times than needed). This bias is the mass of red waves above the dotted line (the 81% of buses that arrive late).
 For predictions of 15 minutes or more, there is just a 5% chance the bus will arrive at least 1:30 minutes early, while there is a 52% chance the bus will arrive at least 1:30 minutes late.  
 
+<img src="/simpleblog/assets/png/ggconf.png" alt="confidence intervals for prediction errors">
+
 ### How late is late?
 
 * 70% of the time buses are no more than 4 minutes late (and no more than 30 seconds early) for predictions of 15 minutes or more.  
@@ -67,8 +69,6 @@ However, these margins of error widen quite a bit when we want to be 90% sure wh
 
 * 90% of the time buses are no more than 7 minutes late (and no more than 1:30 minutes early) for predictions of 15 minutes or more.  
 * 90% of the time buses are no more than 2:43 minutes late (and no more than 53 seconds early) for predictions of 5 minutes.  
-
-<img src="/simpleblog/assets/png/ggconf.png" alt="confidence intervals for prediction errors">
 
 ### Does rush hour traffic affect Next Bus?
 
