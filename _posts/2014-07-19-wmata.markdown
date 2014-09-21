@@ -129,14 +129,6 @@ Posts on the making of this project can be found here:
 
 This project on:
 <a href="https://github.com/brooksandrew/nextbus" class="btn">github  </a>
-<a href="http://brooksandrew.github.io/simpleblog/articles/nextbus/" class="btn">blog</a>
-
-<!-- See how I figured this out: [here](https://github.com/brooksandrew/nextbus). -->
-
-
-<!-- <figure>
-	<a href="https://farm6.staticflickr.com/5521/13899179960_ae06893c7e_h.jpg" class="image-popup" title="IMG_0251 by Andrew Brooks, on Flickr"><img src="https://farm6.staticflickr.com/5521/13899179960_ae06893c7e_h.jpg" width="1600" height="1200" alt="IMG_0251"></a>
-</figure> -->
 
 
 
