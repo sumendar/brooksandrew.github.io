@@ -18,7 +18,7 @@ Nextbus estimates use GPS which is definitely smarter than the static bus schedu
 I feel like I've found myself waiting for what seems like 10 minutes at the bus stop
 when Nextbus continually tells me I have just a few minutes left to wait.  
 <br>
-I pulled predictions from the [WMATA (Washington Metropolitan Area Transit Authority)](http://developer.wmata.com/) API every 10 seconds for about a week.
+To figure this out, I pulled predictions from the [WMATA (Washington Metropolitan Area Transit Authority)](http://developer.wmata.com/) API every 10 seconds for about a week.
 I selfishly collected data for just my bus (the southbound [64](http://www.wmata.com/bus/timetables/dc/60-64.pdf)) for my stop in Petworth (5th & Taylor St NW).
 
 <br>
