@@ -28,7 +28,7 @@ When Nextbus predicts 5 minutes, 80% of the time you can expect to wait between 
 Not perfect, but not terrible.
 
 ### How often is the bus late?
-81% of the time.  Interact with the app below to see the range of actual wait times you can expect for any Nextbus prediction.
+81% of the time.  Interact with the app below to see the range of actual wait times you can expect for any Next Bus prediction.
 
 <iframe style="border: 0px;" src="/simpleblog/assets/html/d3nextbus.html" width="1000" height="650"></iframe>
 
@@ -62,13 +62,13 @@ For predictions of 15 minutes or more, there is just a 5% chance the bus will ar
 
 ### How late is late?
 
-* 70% of the time buses are no more than 4 minutes late (and no more than 30 seconds early) for predictions of 15 minutes or more.  
-* 70% of the time buses are no more than 1:52 minutes late (and no more than 19 seconds early) for predictions of 5 minutes.  
+* 70% of the time buses arrive between **30 seconds early** and **4 minutes late** for predictions of 15 minutes or more.  
+* 70% of the time buses arrive between **19 seconds early** and **1:52 minutes late** for predictions of 5 minutes.  
 
 However, these margins of error widen quite a bit when we want to be 90% sure when the bus will arrive(the dark red area).  These are the nasty outliers.  
 
-* 90% of the time buses are no more than 7 minutes late (and no more than 1:30 minutes early) for predictions of 15 minutes or more.  
-* 90% of the time buses are no more than 2:43 minutes late (and no more than 53 seconds early) for predictions of 5 minutes.  
+* 90% of the time buses arrive between **1:30 minutes early** and **7 minutes late** for predictions of 15 minutes or more.  
+* 90% of the time buses arrive between **53 seconds early** and **2:43 minutes late** for predictions of 5 minutes.  
 
 ### Does rush hour traffic affect Next Bus?
 
