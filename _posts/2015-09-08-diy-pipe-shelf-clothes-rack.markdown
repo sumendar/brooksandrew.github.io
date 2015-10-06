@@ -22,7 +22,7 @@ I recently moved into new bedroom: bigger space, less closets.  Clothes and shoe
 ### Materials
 
 These floor flanges are expensive and it turned out I needed more than I realized.  Next time, I might try to think of a creative way around buying a ton of them.  
-
+<br>
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/123438060@N05/21325612072/in/album-72157645887475795/" title="Untitled"><img src="https://farm6.staticflickr.com/5829/21325612072_3d29c7b17d_c.jpg" width="800" height="600" alt="Untitled"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 ### Assembling
