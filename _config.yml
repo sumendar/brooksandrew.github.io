@@ -1,13 +1,13 @@
-title:            andrew brooks
+title:            Sumendar Karupakala
 description:      homepage
 # Your site's domain goes here. Leave localhost server or blank when working locally.
-#url:              http://localhost:4000
-url:             http://sumendar.github.io
+# url:              http://localhost:4000
+url:              https://sumendar.github.io/
 disqus_shortname:
 
 # Owner/author information
 owner:
-  name:           andrew brooks
+  name:           Sumendar Karupakala
   avatar:         bio-photo.jpg
   bio:            "internationalist turned economist turned data scientist"
   email:          andrewbrooksct@gmail.com
