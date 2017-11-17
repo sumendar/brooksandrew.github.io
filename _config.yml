@@ -41,7 +41,7 @@ links:
   - title: Projects
     url: /projects/
   - title: Blog
-    url: http://sumendar.github.io/simpleblog
+    url: https://sumendar.github.io/simpleblog/
     external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
