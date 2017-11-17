@@ -2,7 +2,7 @@ title:            andrew brooks
 description:      homepage
 # Your site's domain goes here. Leave localhost server or blank when working locally.
 #url:              http://localhost:4000
-url:             http://brooksandrew.github.io
+url:             http://sumendar.github.io
 disqus_shortname:
 
 # Owner/author information
@@ -41,7 +41,7 @@ links:
   - title: Projects
     url: /projects/
   - title: Blog
-    url: http://brooksandrew.github.io/simpleblog
+    url: http://sumendar.github.io/simpleblog
     external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
