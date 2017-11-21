@@ -5,7 +5,7 @@ title: About me
 tagline: 
 tags: [about]
 modified: 9-9-2013
-comments: true
+comments: false
 image:
   feature: nz_sheep.jpg
   credit: Andrew Brooks
