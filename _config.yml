@@ -3,7 +3,8 @@ description:      Data Science Blog
 # Your site's domain goes here. Leave localhost server or blank when working locally.
 #url:              http://localhost:4000
 #url:             http://sumendar.github.io
-url:             http://www.sumendar.com
+#url:             http://www.sumendar.com
+url:             /sumendar1.github.io
 disqus_shortname: sumendar
 
 # Owner/author information
